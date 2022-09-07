@@ -10,29 +10,7 @@ body {
 }
 
 /* MEDIA QUERI DA 500 IN SU HEADER PAYOFF */
-    @media screen and (min-width:500px) {
-        html {
-            font-size: 70%;
-        }
-        body {
-            line-height: 1.8;
-        }
-
-        .header-logo{
-        display: flex;
-        flex-direction: space-around;}
-    }
-
-    /* @media screen and (min-width:700px) {
-        html {
-            font-size: 80%;
-        }
-        body {
-            line-height: 2;
-        }
-
-      
-    }
+ 
     @media screen and (min-width:1200px) {
         html {
             font-size: 100%;
@@ -134,6 +112,7 @@ main {
 }
 
 /* I BOX SONO AFFIANCATI VERTICALMENTE */
+
     @media screen and (min-width:800px) {
         
         
@@ -333,41 +312,6 @@ aside div p:last-child {
    
 }
 
-@media  screen and (min-width:500px) and (max-width: 799px)  {
-   
-     /* aside
-        display: flex;
-    }
-    .aside-cont{ 
-   
-    display: flex;
-    align-content: center;
-    margin-left: 10px;
-    margin-right:10px
-   
-    } */
-
-   
-    
-    .aside-cont{ 
-        display: flex; 
-        justify-content: space-around;
-        flex:1 0 0;
-     
-       
-        }
-    
-        .box{ 
-        border: 1px solid black; 
-        background-color: #e3e3e3;
-        border: 1px solid #c3c3c3; 
-        
-        
-        }
-
-    
-
-}
 
  
 
@@ -421,3 +365,49 @@ footer a {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:500px) {
+    html {
+        font-size: 70%;
+    }
+    body {
+        line-height: 1.8;
+    }
+
+    .header-logo{
+    display: flex;
+    flex-direction: space-around;}
+
+    .aside-cont{
+        display: flex;
+
+    }
+
+    .aside-cont div{
+        flex: 1 0 0 ;
+        border: 1px solid black; 
+        background-color: #e3e3e3;
+        border: 1px solid #c3c3c3;
+       
+    }
+}
+
+ @media screen and (min-width:800px) {
+    html {
+        font-size: 80%;
+    }
+    body {
+        line-height: 2;
+    }
+
+  
+}
